@@ -3,10 +3,10 @@
 ## Plan
 
 - Week: 7/10 - 14/10
-  - Plan Making
-  - Schedule Making
+  - [x] Plan Making
+  - [x] Schedule Making
 - Week: 14/10 - 21/10:
-  - Website Design
+  - [x] Website Design
   - Choice of Website Stack
 - Week: 21/10 - 4/11:
   - Development of first mock
