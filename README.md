@@ -34,3 +34,15 @@ _+ free time if needed_
   - CSS
 - CMS:
   - Wordpress
+
+## Meeting Notes
+
+- Pinboard of Events
+- Advice through 3rd Parties
+  - Click-thourgh Pages
+  - Links to google drive
+- Set Path for various regions for UNI
+- Calendar with presentations on calendar
+- Archive Section
+- *Writeups for the articles about the events*
+
