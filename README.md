@@ -7,7 +7,7 @@
   - [x] Schedule Making
 - Week: 14/10 - 21/10:
   - [x] Website Design
-  - [ ] Choice of Website Stack
+  - [x] Choice of Website Stack
 - Week: 21/10 - 4/11:
   - [ ] Development of first mock
   - [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
@@ -26,3 +26,11 @@
 - Thurday: Period 1 & 2
 
 _+ free time if needed_
+
+## Choice of Website Stack
+- Front-End:
+  - PHP
+  - HTML
+  - CSS
+- CMS:
+  - Wordpress
