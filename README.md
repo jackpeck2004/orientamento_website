@@ -1,5 +1,12 @@
 # Orientamento Website Theme
 
+## TOC
+- [Plan](#plan)
+- [Schedule](#schedule)
+- [Stack](#stack)
+- [Meeting Notes](#notes)
+
+<a name="plan" />
 ## Plan
 
 - Week: 7/10 - 14/10
@@ -20,6 +27,7 @@
   - [ ] Insert Data
   - [ ] Begin Website Maintainance
 
+<a name="schedule" />
 ## Schedule
 
 - Wednesday: Period 1 & 2
@@ -27,6 +35,7 @@
 
 _+ free time if needed_
 
+<a name="stack" />
 ## Choice of Website Stack
 - Front-End:
   - PHP
@@ -35,6 +44,7 @@ _+ free time if needed_
 - CMS:
   - Wordpress
 
+<a name="notes" />
 ## Meeting Notes
 
 - Pinboard of Events
