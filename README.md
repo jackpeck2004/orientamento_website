@@ -16,6 +16,7 @@
   - [ ] Research Deployment Stack
   - [ ] Deployment
 - Week: 11/11 - ...:
+  - [ ] Find writers for articles
   - [ ] Insert Data
   - [ ] Begin Website Maintainance
 
