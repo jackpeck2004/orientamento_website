@@ -9,12 +9,12 @@ function orientamento_custom_styles() {
 add_action('wp_enqueue_scripts', 'orientamento_custom_styles');
 
 
-// Footer_Menu
+// Menus
 function orientamento_custom_menu() {
   register_nav_menus(
     array(
-      'my-custom-menu' => __( 'Header Menu' )
-    //   'extra-menu' => __( 'Extra Menu' )
+      'header-menu' => __( 'Header Menu' ),
+      'footer-menu' => __( 'Footer Menu' )
     )
   );
 }
