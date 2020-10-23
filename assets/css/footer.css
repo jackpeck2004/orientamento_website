@@ -1,0 +1,13 @@
+.page-footer {
+  background: #303030;
+  color: white;
+  min-height: 10vh;
+}
+
+.page-footer .secondary {
+  color: #bfbfbf;
+}
+
+.page-footer > .container > .left {
+  float: left;
+}
