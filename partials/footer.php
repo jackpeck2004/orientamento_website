@@ -1,6 +1,6 @@
 <footer class="page-footer">
-    <div class="container">
-        <div class="left">
+    <div class="container row">
+        <div class="one-half column">
             <?php
 wp_nav_menu( array( 
     'theme_location' => 'footer-menu', 
@@ -10,12 +10,12 @@ wp_nav_menu( array(
                 <?php echo "&copy; ". date(Y)." Copyright H-FARM."; ?>
             </span>
         </div>
-        <div class="right">
-            <div class="credits">
+        <div class="one-half column">
+            <div class="copyrights">
                 <p>Theme designed by:</p>
                 <ul>
-                    <li><a href="https://giacomopasin.com">Giacomo Pasin</a></li>
-                    <li><a href="">Tommaso Paganelli</a></li>
+                    <li><a class="secondary" href="https://giacomopasin.com">Giacomo Pasin</a></li>
+                    <li><a class="secondary" href="">Tommaso Paganelli</a></li>
                 </ul>
                 <p class="secondary students">
                     Students @ H-FARM International School

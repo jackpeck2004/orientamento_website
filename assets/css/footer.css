@@ -30,42 +30,32 @@
   transition: 125ms;
 }
 
-.footer-menu-class > ul > li > a:hover {
+.footer-menu-class ul li a:hover {
   color: #bfbfbf;
 }
 
-.page-footer > .container > .right {
+.page-footer .container .right {
   float: right;
 }
 
-.page-footer > .container > .right > .credits {
+.page-footer .container .credits {
   line-height: 0.8em;
 }
 
-.page-footer .container .right .credits li a {
+.page-footer .container .credits li a {
   color: #bfbfbf;
 }
 
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
   .page-footer {
     min-height: 20px;
   }
-  .left {
-    float: none;
-    width: 100%;
-  }
-  .right {
-    float: none;
-    width: 100%;
-    background: red;
-  }
+} */
+
+@media only screen and (max-width: 550px) {
   .copyright {
     position: absolute;
     right: 20px;
     top: 0;
-  }
-
-  .credits {
-    display: none;
   }
 }
