@@ -6,3 +6,8 @@ Description: This theme has been developed by Giacomo Pasin and Tommaso Paganell
 Tags: blog, orientamento
 Version: 0.1
 */
+
+body {
+  padding: 0;
+  margin: 0;
+}
