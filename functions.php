@@ -3,6 +3,7 @@
 function orientamento_custom_styles() {
     wp_enqueue_style( 'skeleton-cdn-css', 'https://cdn.jsdelivr.net/npm/skeleton-css@2.0.4/css/skeleton.min.css' );
     wp_enqueue_style( 'footer-css', get_template_directory_uri() . '/assets/css/footer.css' );
+    wp_enqueue_style( 'menu-css', get_template_directory_uri() . '/assets/css/menu.css' );
     wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css' );
 }     
 
