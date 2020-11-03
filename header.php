@@ -9,4 +9,5 @@
 </head>
 
 <body>
+    <?php require_once('partials/menu.php'); ?>
     <div class="container">
