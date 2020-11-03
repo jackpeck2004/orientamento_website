@@ -26,7 +26,7 @@
 
             </script>
         <div class="container navbar">
-            <a class="title">
+            <a class="title" href="<?php echo get_home_url(); ?>">
                 <?php echo get_bloginfo('name'); ?>
             </a>
             <div id="desktop" class="links">
@@ -36,39 +36,43 @@
         'container_class' => 'header-menu-class' ) ); 
     ?>
             </div>
-        <div id="mobile" class="links">
-        <div class="opener">
-        <h1>=</h1>
-        </div>
-        <div class="menu-mobile">
-        <?php
-wp_nav_menu( array(
-    'theme_location' => 'header-menu',
-    'container_class' => 'header-menu-class-mobile' ) );
-?>
-        </div>
-        </div>
+            <div id="mobile" class="links">
+                <div class="opener">
+                    <h1>=</h1>
+                </div>
+
+                <div class="menu-mobile">
+                <?php
+        wp_nav_menu( array(
+            'theme_location' => 'header-menu',
+            'container_class' => 'header-menu-class-mobile' ) );
+        ?>
+                </div>
+            </div>
         </div>
     </nav>
         <script>
-        let isOpen = false;
-        const menu = document.querySelector(".menu-mobile")
-        const opener = document.querySelector(".opener")
+            let isOpen = false;
+            const menu = document.querySelector(".menu-mobile")
+            const opener = document.querySelector(".opener")
+            const openerH1 = document.querySelector(".opener>h1")
 
-        function refreshMenu() {
-            if(isOpen) {
-                menu.style.display = "block";
-            } else {
-                menu.style.display = "none";
+            function refreshMenu() {
+                if(isOpen) {
+                    menu.style.display = "block";
+                    openerH1.innerText = "x";
+                } else {
+                    menu.style.display = "none";
+                    openerH1.innerText = "=";
+                }
             }
-        }
 
-        opener.addEventListener("click", () => {
-            isOpen = !isOpen;
+            opener.addEventListener("click", () => {
+                isOpen = !isOpen;
+                refreshMenu();
+            })
+
+
             refreshMenu();
-        })
-
-
-        refreshMenu();
         </script>
 </div>
