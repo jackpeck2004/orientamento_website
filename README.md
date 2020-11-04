@@ -24,6 +24,8 @@
     - [x] Footer
     - [x] 404 Page
     - [ ] Archive Page
+        - Research how to create archive page
+        - Create a row for each category
     - [ ] Event Calendar Page
   - [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
 - Week: 11/11 - 18/11:
