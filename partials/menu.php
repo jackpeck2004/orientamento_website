@@ -56,14 +56,17 @@
             const menu = document.querySelector(".menu-mobile")
             const opener = document.querySelector(".opener")
             const openerH1 = document.querySelector(".opener>h1")
+            const title = document.querySelector(".title")
 
             function refreshMenu() {
                 if(isOpen) {
                     menu.style.display = "block";
                     openerH1.innerText = "x";
+                    title.style.display = "none";
                 } else {
                     menu.style.display = "none";
                     openerH1.innerText = "=";
+                    title.style.display = "block";
                 }
             }
 
