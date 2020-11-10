@@ -104,7 +104,7 @@ foreach ($categories as $category) {
 
             ?>
                     <p class="excerpt"><?php the_excerpt() ?></p>
-                    <a class="readmore" href="<?php the_permalink(); ?>">Read More</a>
+                    <a href="<?php the_permalink(); ?>">Read More</a>
                 </div>
             </a>
 
