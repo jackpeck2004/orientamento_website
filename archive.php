@@ -6,8 +6,10 @@ get_header(); ?>
 
     <style>
         .link {
-            color: #303030;
+            color: black;
             transition: 125ms ease-in-out;
+            text-decoration: none
+        ;
         }
 
         .link:hover {
@@ -15,21 +17,19 @@ get_header(); ?>
         }
 
         .post {
-            border: 1px solid #303030;
-            margin: 5% 0%;
-            padding: 2% 4%;
+            background: #fafafa;
             border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            transition: 500ms;
+            padding: 2% 4%;
+            margin-bottom: 100px;
         }
 
         .post:hover {
-            -webkit-box-shadow: 7px 7px 29px 0px rgba(188, 188, 188, 0.77);
-            -moz-box-shadow: 7px 7px 29px 0px rgba(188, 188, 188, 0.77);
-            box-shadow: 7px 7px 29px 0px rgba(188, 188, 188, 0.77);
+        }
+
+        .post > .date {
+            color: #8B8B8B;
+            font-size: 1.2em;
+
         }
     </style>
 
@@ -55,7 +55,56 @@ foreach ($categories as $category) {
                 <div class="post">
                     <h4><a class="link" href="<?php the_permalink() ?>" rel="bookmark"
                            title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-                    <p><?php the_date(); ?></p>
+            <?php
+
+            function getMonth($month_number) {
+                switch(intval($month_number)) {
+                    case 1:
+                        return "January";
+                    case 2:
+                        return "February";
+                    case 3:
+                        return "March";
+                    case 4:
+                        return "April";
+                    case 5:
+                        return "May";
+                    case 6:
+                        return "June";
+                    case 7:
+                        return "July";
+                    case 8:
+                        return "August";
+                    case 9:
+                        return "September";
+                    case 10:
+                        return "October";
+                    case 11:
+                        return "November";
+                    case 12:
+                        return "December";
+                }
+            }
+
+                $event_date = get_post_meta($post->ID, 'event_date', true);
+            if ($event_date) {
+
+                $year = substr($event_date, 0, 4);
+                $month = getMonth(substr($event_date, 5, 2));
+                $day = substr($event_date, 8, 2);
+                $time = substr($event_date, 11, 5);
+
+                $format = $month . " " . $day. ", " . $year . " at " . $time ;
+                echo '<p class="date">' . $format . '</p>';
+            }
+
+            else {
+                echo '<i class="date">to be added...</i>';
+            }
+
+            ?>
+                    <p class="excerpt"><?php the_excerpt() ?></p>
+                    <a class="readmore" href="<?php the_permalink(); ?>">Read More</a>
                 </div>
             </a>
 
