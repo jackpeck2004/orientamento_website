@@ -23,8 +23,8 @@
     - [x] Footer
     - [x] 404 Page
     - [x] Archive Page
-        - Research how to create archive page
-        - Create a row for each category
+        - [x] Research how to create archive page
+        - [x] Create a row for each category
 - Week: 11/11 - 18/11:
   - [ ] Development of first mock
     - [ ] Front Page
