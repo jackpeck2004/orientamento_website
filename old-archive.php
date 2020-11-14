@@ -51,10 +51,16 @@ foreach ($categories as $category) {
         echo '<h1>' . $category->name . ' </h1> ';
         foreach ($posts as $post) {
             setup_postdata($post); ?>
-            <a style="display: block" href="<?php the_permalink() ?>">
                 <div class="post">
-                    <h4><a class="link" href="<?php the_permalink() ?>" rel="bookmark"
-                           title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+                    <h4>
+                      <a
+                        class="link" 
+                        href="<?php the_permalink() ?>"
+                        rel="bookmark"
+                        title="Permanent Link to <?php the_title_attribute(); ?>">
+                          <?php the_title(); ?>
+                      </a>
+                  </h4>
             <?php
 
             function getMonth($month_number) {
@@ -106,7 +112,6 @@ foreach ($categories as $category) {
                     <p class="excerpt"><?php the_excerpt() ?></p>
                     <a href="<?php the_permalink(); ?>">Read More</a>
                 </div>
-            </a>
 
             <?php
         } // foreach($posts
