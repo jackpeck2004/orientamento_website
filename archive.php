@@ -4,6 +4,10 @@ Template Name: Archives
 */
 get_header(); ?>
 <style>
+  :root {
+    --hover-link-color: #5a5a5a;
+  }
+
   .link {
       color: black;
       transition: 125ms ease-in-out;
@@ -11,7 +15,7 @@ get_header(); ?>
   }
 
   .link:hover {
-      color: #5a5a5a;
+      color: var(--hover-link-color);
   }
 
   .post {
@@ -29,15 +33,26 @@ get_header(); ?>
       font-size: 1.2em;
 
   }
+
+  .category-link {
+    color: black;
+    text-decoration: none;
+    transition: 125ms ease-in-out;
+  }
+
+  .category-link:hover {
+  color: var(--hover-link-color)
+  }
 </style>
 
 <?php
 
 $categories = get_categories();
 foreach($categories as $cat) {
-  echo '<h1>' . $cat->name .'</h1>';
+  echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1>';
 
-  $catPost = get_posts(get_cat_ID($cat->name));
+  $catPostArgs = array('posts_per_page' => 3, 'category' => $cat->cat_ID);
+  $catPost = get_posts($catPostArgs);
   foreach ($catPost as $post) : setup_postdata($post);
 ?>
 
