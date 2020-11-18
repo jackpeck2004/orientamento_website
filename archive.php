@@ -71,6 +71,7 @@ foreach($categories as $cat) {
 
 <?php
   endforeach;
+  get_footer();
 }
 ?>
 

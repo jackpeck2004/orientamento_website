@@ -7,7 +7,7 @@ wp_nav_menu( array(
     'container_class' => 'footer-menu-class' ) ); 
 ?>
             <span class="secondary copyright">
-                <?php echo "&copy; ". date("Y")." Copyright H-FARM."; ?>
+                <?php echo "&copy; ". date('Y')." Copyright H-FARM."; ?>
             </span>
     </div>
         <div class="one-half column">
