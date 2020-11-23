@@ -19,20 +19,23 @@
 - Week: 21/10 - 11/11:
   - [x] Development of first mock
     - [x] Index Page
-    - [ ] Front Page
     - [x] Header and Menu
     - [x] Footer
     - [x] 404 Page
     - [x] Archive Page
         - [x] Research how to create archive page
         - [x] Create a row for each category
+- Week: 11/11 - 18/11:
+  - [ ] Development of first mock
+    - [ ] Front Page
+    - [ ] Post Page
     - [ ] Event Calendar Page
   - [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
-- Week: 11/11 - 18/11:
+- Week: 18/11 - 25/11:
   - [ ] Adjusting mock to fit standup feedback
   - [ ] Research Deployment Stack
   - [ ] Deployment
-- Week: 11/11 - ...:
+- Week: 25/11 - ...:
   - [ ] Find writers for articles
   - [ ] Insert Data
   - [ ] Begin Website Maintainance
