@@ -31,12 +31,16 @@
   }
 
 </style>
+<div class="hero">
 <?php 
-echo "<a href=\"javascript:history.go(-1)\">Back</a>";
+echo "<a class=\"back\" href=\"javascript:history.go(-1)\">←</a>";
+?>
+<h1 class="text-focus-in"><?php single_cat_title( '', true ); ?></h1>
+</div>
+  <?php
 
 if ( have_posts() ) : ?>
 
-<h1><?php single_cat_title( '', true ); ?></h1>
 
 <?php 
   $cat_ID = get_the_category()[0]->cat_ID;
@@ -45,7 +49,7 @@ if ( have_posts() ) : ?>
   foreach ($catPost as $post) : setup_postdata($post);
 ?>
 
-<div class="post">
+<div class="post text-focus-in">
   <h4>
     <a
       class="link"
