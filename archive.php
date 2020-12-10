@@ -1,55 +1,14 @@
 <?php
 /*
-Template Name: Archives
+Template Name: Archive
 */
 get_header(); ?>
-<style>
-  :root {
-    --hover-link-color: #5a5a5a;
-  }
-
-  .link {
-      color: black;
-      transition: 125ms ease-in-out;
-      text-decoration: none;
-  }
-
-  .link:hover {
-      color: var(--hover-link-color);
-  }
-
-  .post {
-      background: #fafafa;
-      border-radius: 15px;
-      padding: 2% 4%;
-      margin-bottom: 100px;
-  }
-
-  .post:hover {
-  }
-
-  .post > .date {
-      color: #8B8B8B;
-      font-size: 1.2em;
-
-  }
-
-  .category-link {
-    color: black;
-    text-decoration: none;
-    transition: 125ms ease-in-out;
-  }
-
-  .category-link:hover {
-  color: var(--hover-link-color)
-  }
-</style>
 
 <?php
 
 $categories = get_categories();
 foreach($categories as $cat) {
-  echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1>';
+  echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1><div class="posts">';
 
   $catPostArgs = array('posts_per_page' => 3, 'category' => $cat->cat_ID);
   $catPost = get_posts($catPostArgs);
@@ -71,7 +30,11 @@ foreach($categories as $cat) {
 
 <?php
   endforeach;
-  get_footer();
-}
 ?>
+</div>
+  <?php
+}
+  get_footer();
+?>
+
 
