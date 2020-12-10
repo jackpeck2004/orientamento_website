@@ -6,6 +6,7 @@ function orientamento_custom_styles() {
     wp_enqueue_style( 'menu-css', get_template_directory_uri() . '/assets/css/menu.css' );
     wp_enqueue_style( 'archive-css', get_template_directory_uri() . '/assets/css/archive.css' );
     wp_enqueue_style( 'single-css', get_template_directory_uri() . '/assets/css/single.css' );
+    wp_enqueue_style( 'hero-css', get_template_directory_uri() . '/assets/css/hero.css' );
     wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css' );
 }     
 

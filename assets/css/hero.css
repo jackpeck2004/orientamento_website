@@ -1,0 +1,14 @@
+.hero {
+  max-height: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 5vh;
+}
+
+.hero > h1 {
+  font-size: calc(10vh);
+  font-family: "Times New Roman"
+}
+

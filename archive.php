@@ -4,8 +4,11 @@ Template Name: Archive
 */
 get_header(); ?>
 
-<?php
+<div class="hero">
+  <h1><?php echo get_the_title(); ?></h1>
+</div>
 
+<?php
 $categories = get_categories();
 foreach($categories as $cat) {
   echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1><div class="posts">';
@@ -33,6 +36,7 @@ foreach($categories as $cat) {
 ?>
 </div>
   <?php
+echo '<a class="" href="'.get_category_link($cat->cat_ID) .'"> Read more from ' . $cat->name .'</a>';
 }
   get_footer();
 ?>
