@@ -75,8 +75,7 @@
 
 
 .page-menu .header-menu-class-mobile>ul li {
-  display: flex;
-  /*justify-content: flex-end;*/
+  display: flex; /*justify-content: flex-end;*/
   align-items: center;
   list-style: none;
 }
@@ -90,4 +89,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.opener>h1:hover {
+  cursor: pointer;
 }
