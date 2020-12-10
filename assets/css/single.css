@@ -1,0 +1,82 @@
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 500ms cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+:root {
+  --article-background-color: #f4f4f4;
+}
+.article {
+  scrolling-behaviour: smooth;
+}
+
+.article > h1 {
+  font-family: "Times New Roman";
+  font-size: 10em;
+}
+
+.article > .back {
+  font-size: 4em;
+  text-decoration: none;
+  color: #030303;
+  transition: 250ms;
+}
+
+.article > .back:hover {
+  color: #c2c2c2;
+}
+
+#navbar {
+  top: -50px;
+  position:fixed;
+  width: 100%;
+  transition: top 0.3s;
+  background: white;
+  z-index:10;
+  -webkit-box-shadow: 0px 10px 25px -16px rgba(209,209,209,1);
+  -moz-box-shadow: 0px 10px 25px -16px rgba(209,209,209,1);
+  box-shadow: 0px 10px 25px -16px rgba(209,209,209,1);
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#navbar > div > .title {
+  font-family: "Times New Roman";
+}
+
+

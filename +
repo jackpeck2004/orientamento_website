@@ -3,12 +3,10 @@
   wp_head();
 ?>
 <div id="navbar">
-<div class="container">
   <a class="back" href="javascript:history.go(-1)">←</a>
-  <a class="title" >
+  <a>
     <?php single_post_title(); ?>
   </a>
-</div>
 </div>
 
 <?php
@@ -39,7 +37,7 @@ function scrollFunction() {
   if (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-80px";
+    document.getElementById("navbar").style.top = "-50px";
   }
 }
 
