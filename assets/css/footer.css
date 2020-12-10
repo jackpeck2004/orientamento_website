@@ -1,8 +1,18 @@
+body {
+  padding-bottom: 200px;
+
+}
+
+
 .page-footer {
   background: #303030;
   color: white;
   min-height: 100px;
   padding: 2vh 0;
+  clear: both;
+  position: relative;
+  height: 200px;
+    /*margin-top: 200px;*/
 }
 
 .page-footer .secondary {

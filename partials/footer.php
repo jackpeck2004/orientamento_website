@@ -24,3 +24,7 @@ wp_nav_menu( array(
         </div>
     </div>
 </footer>
+
+<script>
+console.log(document.querySelector("body").style.height)
+</script>
