@@ -35,7 +35,7 @@
 <?php 
 echo "<a class=\"back\" href=\"javascript:history.go(-1)\">←</a>";
 ?>
-<h1 class="text-focus-in"><?php single_cat_title( '', true ); ?></h1>
+<h1 class="hero-title text-focus-in"><?php single_cat_title( '', true ); ?></h1>
 </div>
   <?php
 

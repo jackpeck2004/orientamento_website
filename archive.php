@@ -4,14 +4,17 @@ Template Name: Archive
 */
 get_header(); ?>
 
-<div class="hero">
-  <h1><?php echo get_the_title(); ?></h1>
-</div>
+<div class="archive">
 
 <?php
 $categories = get_categories();
 foreach($categories as $cat) {
-  echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1><div class="posts">';
+  //echo '<h1><a class="category-link" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1><div class="posts">';
+  echo <<<EOF
+<div class="category">
+<p>Category:</p>
+EOF;
+  echo '<h1 class""><a class="category-link hero-title" href="'.get_category_link($cat->cat_ID) .'">' . $cat->name .'</a></h1><div class="posts">';
 
   $catPostArgs = array('posts_per_page' => 3, 'category' => $cat->cat_ID);
   $catPost = get_posts($catPostArgs);
@@ -36,9 +39,11 @@ foreach($categories as $cat) {
 ?>
 </div>
   <?php
-echo '<a class="" href="'.get_category_link($cat->cat_ID) .'"> Read more from ' . $cat->name .'</a>';
+echo '<a class="read-more" href="'.get_category_link($cat->cat_ID) .'"> Read more from ' . $cat->name .'</a>';
+echo <<<EOF
+</div>
+</div>
+EOF;
 }
   get_footer();
 ?>
-
-
