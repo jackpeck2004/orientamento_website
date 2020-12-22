@@ -27,6 +27,10 @@ body {
   transition: 250ms;
 }
 
+.tribe-events-pg-template {
+  margin-top: 60px;
+}
+
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
