@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1645a8fb873ac52422af861b5e3aff49",
+    "content-hash": "6453daf069956f71943647ab2a8e457d",
     "packages": [
         {
             "name": "composer/installers",
@@ -909,6 +909,24 @@
                 }
             ],
             "time": "2020-09-14T15:57:31+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/the-events-calendar",
+            "version": "5.3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
+                "reference": "tags/5.3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.5.3.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
         }
     ],
     "packages-dev": [
@@ -1292,5 +1310,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
