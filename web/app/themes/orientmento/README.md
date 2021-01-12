@@ -1,6 +1,7 @@
 # Orientamento Website Theme
 
 ## TOC
+
 - [Plan](#plan)
 - [Schedule](#schedule)
 - [Stack](#stack)
@@ -23,8 +24,8 @@
     - [x] Footer
     - [x] 404 Page
     - [x] Archive Page
-        - [x] Research how to create archive page
-        - [x] Create a row for each category
+      - [x] Research how to create archive page
+      - [x] Create a row for each category
 - Week: 11/11 - 18/11:
   - [ ] Development of first mock
     - [ ] Front Page
@@ -52,6 +53,7 @@ _+ free time if needed_
 <a name="stack" />
 
 ## Choice of Website Stack
+
 - Front-End:
   - PHP
   - HTML
@@ -70,5 +72,4 @@ _+ free time if needed_
 - Set Path for various regions for UNI
 - Calendar with presentations on calendar
 - Archive Section
-- *Writeups for the articles about the events*
-
+- _Writeups for the articles about the events_

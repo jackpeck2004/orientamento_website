@@ -9,7 +9,7 @@ wp_nav_menu( array(
             <span class="secondary copyright">
                 <?php echo "&copy; ". date('Y')." Copyright H-FARM."; ?>
             </span>
-    </div>
+        </div>
         <div class="one-half column">
             <div class="copyrights">
                 <p>Theme designed by:</p>

@@ -2,7 +2,6 @@ body {
   padding-bottom: 200px;
 }
 
-
 .page-footer {
   background: #303030;
   color: white;
@@ -11,7 +10,7 @@ body {
   clear: both;
   position: relative;
   height: 200px;
-    /*margin-top: 200px;*/
+  /*margin-top: 200px;*/
 }
 
 .page-footer .secondary {
