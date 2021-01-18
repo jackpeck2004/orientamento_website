@@ -80,6 +80,7 @@ remake of the theme.
 ## Meeting Notes
 
 <a name="21102020" />
+
 ### 21 October 2020
 
 - Pinboard of Events
