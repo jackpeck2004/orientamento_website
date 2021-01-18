@@ -33,8 +33,8 @@
     - [x] Post Page
     - [x] Event Calendar Page
 - Week: 11/12 - 30/01:
-- [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
-  - [ ] Adjusting mock to fit standup feedback
+  - [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
+    - [ ] Adjusting mock to fit standup feedback
   - [x] Research Deployment Stack
     - [Deployment Service](#deployment) 
   - [ ] Deployment
