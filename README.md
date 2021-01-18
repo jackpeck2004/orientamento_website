@@ -7,6 +7,7 @@
 - [Stack](#stack)
   - [Wordpress Installation](#wordpress-installation)
 - [Meeting Notes](#notes)
+  - [21 October 2020](#21102020]
 - [Deployment](#deployment)
 
 <a name="plan" />
@@ -64,6 +65,8 @@ _+ free time if needed_
 - CMS:
   - Wordpress
 
+<a name="wordpress-installation" />
+
 ### Wordpress Installation
 
 For the installation this project uses [roots/bedrock](https://roots.io/bedrock/)
@@ -75,6 +78,9 @@ remake of the theme.
 <a name="notes" />
 
 ## Meeting Notes
+
+<a name="21102020" />
+### 21 October 2020
 
 - Pinboard of Events
 - Advice through 3rd Parties
