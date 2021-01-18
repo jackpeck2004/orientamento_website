@@ -7,7 +7,7 @@
 - [Stack](#stack)
   - [Wordpress Installation](#wordpress-installation)
 - [Meeting Notes](#notes)
-  - [21 October 2020](#21102020]
+  - [21 October 2020](#21102020)
 - [Deployment](#deployment)
 
 <a name="plan" />
