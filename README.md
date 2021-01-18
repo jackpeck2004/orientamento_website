@@ -5,6 +5,7 @@
 - [Plan](#plan)
 - [Schedule](#schedule)
 - [Stack](#stack)
+  - [Wordpress Installation](#wordpress-installation)
 - [Meeting Notes](#notes)
 - [Deployment](#deployment)
 
@@ -62,6 +63,14 @@ _+ free time if needed_
   - CSS
 - CMS:
   - Wordpress
+
+### Wordpress Installation
+
+For the installation this project uses [roots/bedrock](https://roots.io/bedrock/)
+which allows for a wordpress installation with a better file structure and a
+better ease of development. Currently debating whether to switch to [roots/sage](https://roots.io/sage)
+instead of the current theme structure but that would require a complete 
+remake of the theme.
 
 <a name="notes" />
 
