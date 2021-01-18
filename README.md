@@ -75,3 +75,24 @@ _+ free time if needed_
 - Calendar with presentations on calendar
 - Archive Section
 - _Writeups for the articles about the events_
+
+<a name="deployment" />
+
+## Deployment
+
+**NOTE:** *The current deployment stack is simply a development workflow and
+should be not taken as live final deployment. It is simply a testing for the 
+production deployment to make sure that all the elements work with the production
+database setup and non-managed installation of woedpress.*
+
+- Host: [Pantheon](https://pantheon.io)
+- Dev Site: [dev-orientamento.pantheonsite.io](https://dev-orientamento.pantheonsite.io)
+- Test Site: [test-orientamento.pantheonsite.io](https://test-orientamento.pantheonsite.io)
+- Live Site: [live-orientamento.pantheonsite.io](https://live-orientamento.pantheonsite.io)
+
+### Ideas for complete deployment
+
+- School web server to use a sub-domain of h-is or h-farm
+- [Siteground hosting](https://siteground.com)
+- [Linode](https://linode.com) or [Digital Ocean](https://digitalocean.com)
+- [Namecheap Easy WP](https://www.namecheap.com/wordpress/)
