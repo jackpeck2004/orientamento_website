@@ -6,6 +6,7 @@
 - [Schedule](#schedule)
 - [Stack](#stack)
 - [Meeting Notes](#notes)
+- [Deployment](#deployment)
 
 <a name="plan" />
 
@@ -26,17 +27,18 @@
     - [x] Archive Page
       - [x] Research how to create archive page
       - [x] Create a row for each category
-- Week: 11/11 - 18/11:
-  - [ ] Development of first mock
-    - [ ] Front Page
-    - [ ] Post Page
-    - [ ] Event Calendar Page
-  - [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
-- Week: 18/11 - 25/11:
+- Week: 11/11 - 11/12:
+  - [x] Development of first mock
+    - [x] Front Page
+    - [x] Post Page
+    - [x] Event Calendar Page
+- Week: 11/12 - 30/01:
+- [ ] Standup Meeting with Ms. Vilk & Mr. Poggi
   - [ ] Adjusting mock to fit standup feedback
-  - [ ] Research Deployment Stack
+  - [x] Research Deployment Stack
+    - [Deployment Service](#deployment) 
   - [ ] Deployment
-- Week: 25/11 - ...:
+- Week: 30/01 - ...:
   - [ ] Find writers for articles
   - [ ] Insert Data
   - [ ] Begin Website Maintainance
