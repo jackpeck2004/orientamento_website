@@ -1,8 +1,14 @@
-<?php wp_head(); ?>
-<?php require_once('partials/menu.php'); ?>
+<?php 
+wp_head();
+
+require_once('partials/menu.php');
+
+$background_image = get_field('background_image');
+?>
 
 <main class="home">
-    <div class="front-page">
+    <div style="background-image: <?php echo 'url(\'' . $background_image["url"] . '\')' ?>; background-size: cover; background-repeat: no-repeat; background-position: center"
+        class="front-page">
         <div class="bg-image">
             <div class="content">
                 <div class="container">
@@ -10,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="body container text-focus-in">
+        <div class=" body container text-focus-in">
             <?php the_content(); ?>
             <?php get_footer(); ?>
         </div>
