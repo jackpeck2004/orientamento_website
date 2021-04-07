@@ -20,7 +20,8 @@
 }
 
 .page-menu .navbar .title {
-  font-size: 3em;
+  font-size: 2em;
+  width: 100%;
   text-decoration: none;
   margin-bottom: 0.2em;
   cursor: pointer;
